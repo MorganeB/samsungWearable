@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/firstProject" version="1.0.0" viewmodes="maximized">
+    <access origin="*" subdomains="true"></access>
+    <access origin="http://travelplanner.mobiliteit.lu" subdomains="true"></access>
+    <tizen:application id="iZvGG1b4Lz.Bus" package="iZvGG1b4Lz" required_version="4.0"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://tizen.org/feature/network.internet"/>
+    <icon src="tulip.png"/>
+    <name>Bus</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="disable" encryption="disable" hwkey-event="enable"/>
+</widget>
